@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "Détecter de faux billets de banque"
+title2: "[Python][OC]"
 date:   2016-07-16 12:00:00 -0400
 categories: jekyll update
 ---
