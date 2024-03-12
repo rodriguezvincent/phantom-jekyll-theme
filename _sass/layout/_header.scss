@@ -9,7 +9,10 @@
 	#header {
 		@include padding(5em, 0, (3em, 0, -5em, 0));
 		text-align: center; /* Centrer le contenu horizontalement */
-		
+		display: flex;
+    	flex-direction: column; /* Aligner les éléments les uns au-dessus des autres */
+    	justify-content: center; /* Centrer verticalement les éléments */
+	}
 		.logo {
 			display: block;
 			border-bottom: 0;
@@ -23,12 +26,12 @@
 			margin: 0 auto (_size(element-margin) * 1.25) auto; /* Marge automatique sur les côtés */
 			
 			> * {
-				display: inline-block;
-				vertical-align: middle;
+				display: block; /* 'block' plutôt que 'inline-block' pour les enfants */
+				margin: 0 auto; /* Centrer chaque élément horizontalement */
 			}
 
 			.symbol {
-				margin-right: 0.65;
+				margin-right: 0;
 
 				img {
 					display: block;
