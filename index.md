@@ -4,8 +4,8 @@ title: Home
 ---
 
 <header>
-<h2>DATA ANALYST JUNIOR</h2><br />
-<h3>EXPÉRIENCES EN MARKETING ET RELATION CLIENTS.</h3>
+<h2 style="text-align: center;">DATA ANALYST JUNIOR</h2>\
+<h3 style="text-align: center;">EXPÉRIENCES EN MARKETING ET RELATION CLIENTS.</h3>
 <p></p>
 </header>
 
