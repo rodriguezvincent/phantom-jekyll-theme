@@ -15,7 +15,7 @@
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
-			letter-spacing: -1px; /* Réduire l'espacement entre les lettres */
+			letter-spacing: -0.5px; /* Réduire l'espacement entre les lettres */
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -28,12 +28,12 @@
 			}
 
 			.symbol {
-				margin-right: 0.65em;
+				margin-right: 0;
 
 				img {
 					display: block;
-					width: 4em;
-					height: 4em;
+					width: 3.5em;
+					height: 3.5em;
 				}
 			}
 		}
