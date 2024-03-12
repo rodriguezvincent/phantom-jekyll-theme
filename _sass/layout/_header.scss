@@ -14,7 +14,6 @@
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
-			letter-spacing: _font(letter-spacing);
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -22,6 +21,7 @@
 			text-align: center; /* Centrer les éléments */
 			font-size: 1.5em; /* Augmenter la taille du texte */
 			margin: 0 auto (_size(element-margin) * 1.25) auto; /* Marge automatique sur les côtés */
+			letter-spacing: -1px; /* Réduire l'espacement entre les lettres */
 
 			> * {
 				display: inline-block;
