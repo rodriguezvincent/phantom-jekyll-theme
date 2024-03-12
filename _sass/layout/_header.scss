@@ -8,14 +8,14 @@
 
 	#header {
 		@include padding(5em, 0, (3em, 0, -5em, 0));
+		text-align: center; /* Centrer le contenu horizontalement */
 		
 		.logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
-			letter-spacing: -0.25px; /* Réduire l'espacement entre les lettres */
-			text-align: center; /* Centrer le contenu horizontalement */
+			letter-spacing: -0.1px; /* Réduire l'espacement entre les lettres */
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -28,7 +28,7 @@
 			}
 
 			.symbol {
-				margin-right: 0;
+				margin-right: 0.65;
 
 				img {
 					display: block;
