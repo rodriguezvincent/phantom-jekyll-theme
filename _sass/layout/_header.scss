@@ -18,7 +18,8 @@
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
-			letter-spacing: -0.1px; /* Réduire l'espacement entre les lettres */
+			font-size: 1.2em; /* Pour agrandir la taille de la police */
+			letter-spacing: -0.0.5px; /* Réduire l'espacement entre les lettres */
 			text-decoration: none;
 			text-transform: uppercase;
 			font-size: 1.5em; /* Augmenter la taille du texte */
@@ -36,8 +37,8 @@
 				img {
 					display: block;
 					margin: 0 auto;
-					width: 3.5em;
-					height: 3.5em;
+					width: 4em;
+					height: 4em;
 				}
 			}
 		}
