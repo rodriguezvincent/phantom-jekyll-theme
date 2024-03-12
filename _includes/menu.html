@@ -7,9 +7,6 @@
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %} {% endfor %}
 
-		<li><a href="{{ page.url | prepend: site.baseurl }}#contact">Contact</a></li>
-		<li><a href="{{ page.url | prepend: site.baseurl }}#projets">Projets</a></li>
-
 		{% for page in site.pages %}
 
 		{% if page.title %}
@@ -17,5 +14,9 @@
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "" }}</a></li>
 
 		{% endif %} {% endfor %}
+
+		<li><a href="{{ page.url | prepend: site.baseurl }}#contact">Contact</a></li>
+		<li><a href="{{ page.url | prepend: site.baseurl }}#projets">Projets</a></li>
+		
 	</ul>
 </nav>

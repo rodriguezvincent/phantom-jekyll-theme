@@ -5,7 +5,8 @@
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/{{ post.image }}.jpg" alt="" />
 		</span>
-		<a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
+		<a href="{{ post.lien }}">
+		<!--<a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">-->
 			<h2>{{ post.title }}</h2>
 			<br />
 			<h3> {{ post.title2 }}</h3>
