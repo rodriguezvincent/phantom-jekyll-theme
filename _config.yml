@@ -9,7 +9,7 @@
 title: Vincent Rodriguez Portfolio
 email: vincentrodriguez.ca@gmail.com
 description:
-baseurl: "/rodriguezvincentportfolio" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Logo settings
