@@ -1,8 +1,8 @@
 <section id="projets" class="tiles">
 
 {% for post in site.posts limit:site.front-page-posts %}
-	<article class="style">
-		<!--{{ forloop.index | plus:1 }}>-->
+	<article class="">
+		<!--style{{ forloop.index | plus:1 }}-->
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/{{ post.image }}.jpg" alt="" />
 		</span>
