@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Identifier des marchés de développement"
+title:  "Étude de marché"
 title2: "[Python][ML][OC]"
 lien: "https://github.com/rodriguezvincent/ProjetsOpenclassrooms-FR/tree/main/P9-%C3%89tude-de-march%C3%A9"
 image: "world"
