@@ -129,43 +129,37 @@
 
 			&.style1 {
 				> .image:before {
-					background-color: _palette(accent1);
+					background-color: orange;/*_palette(accent1)*/
 				}
 			}
 
 			&.style2 {
 				> .image:before {
-					background-color: _palette(accent2);
+					background-color: navy;
 				}
 			}
 
 			&.style3 {
 				> .image:before {
-					background-color: _palette(accent3);
+					background-color: steelblue;
 				}
 			}
 
 			&.style4 {
 				> .image:before {
-					background-color: _palette(accent4);
+					background-color: plum;
 				}
 			}
 
 			&.style5 {
 				> .image:before {
-					background-color: _palette(accent5);
+					background-color: mediumseagreen;
 				}
 			}
 
 			&.style6 {
 				> .image:before {
-					background-color: _palette(accent6);
-				}
-			}
-
-			&.style7 {
-				> .image:before {
-					background-color: _palette(accent7);
+					background-color: chocolate;
 				}
 			}
 
