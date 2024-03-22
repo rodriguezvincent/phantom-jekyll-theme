@@ -127,37 +127,37 @@
 				}
 			}
 
-			&.style1 {
+			&.style2 {
 				> .image:before {
 					background-color: orange;/*_palette(accent1)*/
 				}
 			}
 
-			&.style2 {
-				> .image:before {
-					background-color: navy;
-				}
-			}
-
 			&.style3 {
 				> .image:before {
-					background-color: steelblue;
+					background-color: rgb(60, 37, 207);
 				}
 			}
 
 			&.style4 {
 				> .image:before {
-					background-color: plum;
+					background-color: steelblue;
 				}
 			}
 
 			&.style5 {
 				> .image:before {
-					background-color: mediumseagreen;
+					background-color: plum;
 				}
 			}
 
 			&.style6 {
+				> .image:before {
+					background-color: mediumseagreen;
+				}
+			}
+
+			&.style7 {
 				> .image:before {
 					background-color: chocolate;
 				}
