@@ -9,22 +9,13 @@
 
     <h1>{{ page.title }}</h1> {% if page.featured-image %}
 
-    {% endif %}
-
     {{ content }}
+
     <span class="image main">
       <img src="{{ page.featured-image1 }}" alt="img1">
     </span>
 
-    {{ content }}
-    <span class="image main">
-      <img src="{{ page.featured-image2 }}" alt="img2">
-    </span>
-
-    {{ content }}
-    <span class="image main">
-      <img src="{{ page.featured-image3 }}" alt="img3">
-    </span>
+    {% endif %}
     
     {% include footer.html %}
 
