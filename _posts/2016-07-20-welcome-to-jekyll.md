@@ -2,7 +2,7 @@
 layout: default
 title:  "Étude de marché"
 title2: "[Python][ML][OC]"
-lien: "https://github.com/rodriguezvincent/ProjetsOpenclassrooms-FR/tree/main/P9-%C3%89tude-de-march%C3%A9"
+lien: articles/étude-de-marché.html
 image: "world"
 date:   2016-07-20 12:00:00 -0400
 categories: jekyll update
